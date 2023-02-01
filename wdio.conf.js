@@ -3,7 +3,7 @@ const logToFile = require("log-to-file");
 const allureReporter = require("@wdio/allure-reporter").default;
 const allure = require("allure-commandline");
 const fs = require("fs");
-const chromiumedge = {chromiumedge: { version: '85.0.564.70' }}
+//const chromiumedge = {chromiumedge: { version: '85.0.564.70' }}
 const chrome=    {chrome: { version: '91.0.4472.101' }} 
 
 exports.config = {
@@ -62,7 +62,7 @@ exports.config = {
       // 5 instances get started at a time.
       'maxInstances': 5,
       //
-      'browserName': "MicrosoftEdge",
+      'browserName': "chrome",
       'acceptInsecureCerts': true,
       'goog:chromeOptions' : {
 args:[
@@ -129,9 +129,9 @@ args:[
 services: [
   ['selenium-standalone', {
       logPath: 'logs',
-      installArgs: {  chromiumedge }, // drivers to install
+      installArgs: {  chrome }, // drivers to install
       args: [
-        'chromiumedge',
+        'chrome',
   '--window-size=1920,1080',
   '--incognito',
   '--headless'] // drivers to use
