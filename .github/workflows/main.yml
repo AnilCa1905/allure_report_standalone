@@ -24,10 +24,8 @@ jobs:
           path: gh-pages
       - name: Install Dependencies
         run: npm install
-      - name: setup Latest Chrome Driver
-        run: npm run chromeDriverUpdate
       - name: install chromedriver version 109
-        run: npm i chromedriver@109 --save -dev
+        run: npm i ms-chromium-edge-driver@109 --save -dev
       - name: Executing the Test Scripts
         run: npm run makeMyTrip  
 
