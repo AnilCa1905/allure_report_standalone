@@ -62,7 +62,7 @@ exports.config = {
       // 5 instances get started at a time.
       'maxInstances': 5,
       //
-      'browserName': "chrome",
+      'browserName': "MicrosoftEdge",
       'acceptInsecureCerts': true,
       'goog:chromeOptions' : {
 args:[
@@ -129,8 +129,9 @@ args:[
 services: [
   ['selenium-standalone', {
       logPath: 'logs',
-      installArgs: {  chrome }, // drivers to install
+      installArgs: {  chromiumedge }, // drivers to install
       args: [
+        'chromiumedge',
   '--window-size=1920,1080',
   '--incognito',
   '--headless'] // drivers to use
