@@ -1,0 +1,22 @@
+{
+  "df47cb7937a993d5dd3d782b311c01a3" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6bff82004a10914a",
+      "status" : "failed",
+      "statusDetails" : "Error: Command \"maximizeWindow\" is not yet implemented",
+      "time" : {
+        "start" : 1675244863197,
+        "stop" : 1675244867928,
+        "duration" : 4731
+      }
+    } ]
+  }
+}

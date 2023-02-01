@@ -1,0 +1,11 @@
+[ {
+  "uid" : "6bff82004a10914a",
+  "name" : "User should be able to load url",
+  "time" : {
+    "start" : 1675244863197,
+    "stop" : 1675244867928,
+    "duration" : 4731
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,30 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Error: Command \"maximizeWindow\" is not yet implemented",
+      "children" : [ {
+        "name" : "User should be able to load url",
+        "uid" : "6bff82004a10914a",
+        "parentUid" : "ddbf04942d62e04731fecbd2357da031",
+        "status" : "failed",
+        "time" : {
+          "start" : 1675244863197,
+          "stop" : 1675244867928,
+          "duration" : 4731
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "Edge-109.0.1518.70" ]
+      } ],
+      "uid" : "ddbf04942d62e04731fecbd2357da031"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

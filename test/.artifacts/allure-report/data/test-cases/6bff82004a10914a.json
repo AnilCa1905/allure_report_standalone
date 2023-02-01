@@ -1,0 +1,86 @@
+{
+  "uid" : "6bff82004a10914a",
+  "name" : "User should be able to load url",
+  "fullName" : "Work flow for Make my trip.User should be able to load url",
+  "historyId" : "df47cb7937a993d5dd3d782b311c01a3",
+  "time" : {
+    "start" : 1675244863197,
+    "stop" : 1675244867928,
+    "duration" : 4731
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: Command \"maximizeWindow\" is not yet implemented",
+  "statusTrace" : "Error: Command \"maximizeWindow\" is not yet implemented\n                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n                    at async Homepage.openUrl (C:\\Users\\AnilAlexander\\Desktop\\Workspace\\allure_report_stanalone\\test\\pageobjects\\common.js:10:5)\n                    at async UserContext.<anonymous> (C:\\Users\\AnilAlexander\\Desktop\\Workspace\\allure_report_stanalone\\test\\specs\\makeMyTrip.spec.js:7:3)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Error: Command \"maximizeWindow\" is not yet implemented",
+    "statusTrace" : "Error: Command \"maximizeWindow\" is not yet implemented\n                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n                    at async Homepage.openUrl (C:\\Users\\AnilAlexander\\Desktop\\Workspace\\allure_report_stanalone\\test\\pageobjects\\common.js:10:5)\n                    at async UserContext.<anonymous> (C:\\Users\\AnilAlexander\\Desktop\\Workspace\\allure_report_stanalone\\test\\specs\\makeMyTrip.spec.js:7:3)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2ac7e68ab3c0c4f9",
+      "name" : "Screenshot",
+      "source" : "2ac7e68ab3c0c4f9.png",
+      "type" : "image/png",
+      "size" : 722033
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Work flow for Make my trip"
+  }, {
+    "name" : "testClass",
+    "value" : "Work flow for Make my trip"
+  }, {
+    "name" : "testMethod",
+    "value" : "User should be able to load url"
+  }, {
+    "name" : "package",
+    "value" : "Work flow for Make my trip"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Edge-109.0.1518.70"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "6bff82004a10914a.json",
+  "parameterValues" : [ "Edge-109.0.1518.70" ]
+}
